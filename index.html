@@ -10,53 +10,46 @@
 
 </head>
 <body>
-    <h1 class="logo">Colors</h1>
+    <h1 class="logo">Color Associator</h1>
 <section class="container">
     <div class="input-box">
         <p>Wpisz wartości:</p>
         <div class="line">
             <h4>H: </h4>
             <input type="text" class="input" id="H"></div>
-<div class="line">
-    <h4>S: </h4>
-    <input type="text" class="input" id="S">
-</div>
-<div class="line">
-    <h4>L: </h4>
-    <input type="text" class="input" id="L">
-</div>
-        <div class="button"><h4>Znajdź</h4></div>
+        <div class="line">
+            <h4>S: </h4>
+            <input type="text" class="input" id="S">
+        </div>
+        <div class="line">
+            <h4>L: </h4>
+            <input type="text" class="input" id="L">
+        </div>
+        <div class="button" onclick="Colors()"><h4>Znajdź</h4></div>
+        <div class="button" onclick="Pokaz()"><h4>Pokaż</h4></div>
     </div>
     <div class="wynik">
         <h3>Wybrany kolor:</h3>
         <div class="main">
-            <p> HSL( <span id="main-H"></span> , <span id="main-S"></span> , <span id="main-L"></span> )</p>
+            <p class="main-hsl"></p>
         </div>
         <h3>Dodatkowa paleta:</h3>
         <div class="paleta">
 <div class="one">
-    <p> HSL(
-        <span id="one-H"></span> ,
-        <span id="one-S"></span> ,
-        <span id="one-L"></span> )</p>
+    <p id="one-txt"></p>
 </div>
 <div class="two">
-    <p> HSL(
-        <span id="two-H"></span> ,
-        <span id="two-S"></span> ,
-        <span id="two-L"></span> )</p>
+    <p id="two-txt"></p>
 </div>
 <div class="three">
-    <p> HSL(
-        <span id="three-H"></span> ,
-        <span id="three-S"></span> ,
-        <span id="three-L"></span> )</p>
+    <p id="three-txt"></p>
 </div>
 </div>
     </div>
 </section>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
