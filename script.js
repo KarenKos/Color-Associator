@@ -286,3 +286,17 @@ function Pokaz() {
     };
 };
 
+function Losuj() {
+    let aaa = Math.floor(Math.random() * 360);
+    console.log(aaa);
+    let bbb = Math.floor(Math.random() * 100);
+    console.log(bbb);
+    let ccc = Math.floor(Math.random() * 100);
+    console.log(ccc);
+
+    document.getElementById("H").value = aaa;
+    document.getElementById("S").value = bbb;
+    document.getElementById("L").value = ccc;
+
+    Colors();
+}
