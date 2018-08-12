@@ -12,6 +12,12 @@
 <body>
     <h1 class="logo">Color Associator</h1>
 <section class="container">
+    <div class="left">
+        <div class="wybor" onclick="Radio()">
+            <label class="radio radioh" for="h-radio"><input type="radio" name="wybor" value="h-radio" id="h-radio" /><p>H - odcień</p></label>
+            <label class="radio radios" for="s-radio"><input type="radio" name="wybor" value="s-radio" id="s-radio" /><p>S - nasycenie</p></label>
+            <label class="radio radiol" for="l-radio"><input type="radio" name="wybor" value="l-radio" id="l-radio" /><p>L - jasność</p><label/>
+        </div>
     <div class="input-box">
         <p>Wpisz wartości:</p>
         <div class="line">
@@ -28,6 +34,8 @@
         <div class="button" onclick="Colors()"><h4>Znajdź</h4></div>
         <div class="button" onclick="Pokaz()"><h4>Pokaż</h4></div>
     </div>
+
+</div>
     <div class="wynik">
         <h3>Wybrany kolor:</h3>
         <div class="main">

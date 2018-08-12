@@ -29,6 +29,43 @@ h1, h2, h3, h4, h5, h6 {
 
 /*****left******/
 
+.left {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 50px;
+    width: 140px;
+    border: 2px solid #edb000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: auto 20px;
+}
+
+label:hover {
+    transition: background-color 0.3s;
+   background-color: #edb059;
+   border-color: #edb059;
+   color: #333;
+
+}
+
+label:focus {
+    background-color: #edb000;
+}
+
+.radio > input {
+    margin: auto 10px;
+
+}
+
+.radio > input:active ~ .radio {
+    background-color: #edb000;
+}
 
 .input-box {
 text-align: center;
@@ -41,7 +78,7 @@ margin: auto;
     align-content: center;
     /*margin: 10px;
     height: 40px;*/
-    
+
 }
 
 .line > h4 {
