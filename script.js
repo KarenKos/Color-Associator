@@ -301,6 +301,3 @@ function Losuj() {
     Colors();
 };
 
-function test() {
-    console.log("test");
-}
