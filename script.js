@@ -299,4 +299,4 @@ function Losuj() {
     document.getElementById("L").value = ccc;
 
     Colors();
-}
+};
